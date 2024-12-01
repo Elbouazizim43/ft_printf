@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 01:25:55 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/11/30 22:53:32 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/01 19:30:14 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_ptr(unsigned long n)
 {
 	int		i;
 	char	*hex;
-	char	buffer[17];
+	char	buffer[16];
 	int		count;
 
 	i = 0;

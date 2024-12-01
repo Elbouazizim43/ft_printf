@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 19:57:55 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/12/01 02:38:22 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/02 00:16:17 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,9 @@ int	ft_putstr(char *str)
 	if (!str)
 		return (write(1, "(null)", 6));
 	while (str[i])
+	{
+		write(1, &str[i], 1);
 		i++;
-	return (write(1, str, i));
+	}
+	return (i);
 }

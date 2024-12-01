@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 01:03:58 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/11/29 02:20:34 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/01 19:32:10 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_uns(unsigned int nb)
 {
 	int		i;
 	char	*decimal;
-	char	buffer[20];
+	char	buffer[10];
 	int		count;
 
 	decimal = "0123456789";

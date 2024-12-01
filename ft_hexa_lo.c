@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 01:22:08 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/12/01 01:22:27 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/01 19:31:25 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_hexa_lo(unsigned int n)
 {
 	int		i;
 	char	*hex;
-	char	buffer[20];
+	char	buffer[16];
 	int		count;
 
 	hex = "0123456789abcdef";

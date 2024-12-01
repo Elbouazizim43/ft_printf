@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 19:58:10 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/12/01 02:38:00 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/02 00:15:05 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdlib.h>
 
 int	ft_printf(const char *str, ...);
 int	ft_putchar( char c);

@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 19:58:05 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/12/01 02:41:19 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/02 00:16:03 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ static int	ft_format(va_list valist, const char *str)
 	else if (*str == '%')
 		count += ft_putchar (*str);
 	else
-		count += ft_putchar(*str);
+		count += ft_putchar (*str);
 	return (count);
 }
 

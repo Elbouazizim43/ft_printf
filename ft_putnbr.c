@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 18:47:08 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/11/30 23:12:28 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/01 23:14:40 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_putnbr(int nb)
 {
 	int		i;
 	char	*decimal;
-	char	buffer[20];
+	char	buffer[10];
 	int		sign;
 
 	decimal = "0123456789";

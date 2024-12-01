@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 01:29:23 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/11/30 23:39:57 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/01 23:06:51 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_hexa_up(unsigned int n)
 {
 	int		i;
 	char	*hex;
-	char	buffer[20];
+	char	buffer[16];
 	int		count;
 
 	hex = "0123456789ABCDEF";
