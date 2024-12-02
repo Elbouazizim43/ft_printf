@@ -15,7 +15,7 @@ CFLAGS = -Wall -Werror -Wextra
 all: $(NAME)
 	
 %.o:%.c ft_printf.h
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJ)
 	ar -rc $(NAME) $(OBJ)
@@ -25,3 +25,4 @@ clean :
 fclean : clean
 	rm -f $(NAME)
 re : fclean $(NAME)
+.PHONY: all clean fclean re
