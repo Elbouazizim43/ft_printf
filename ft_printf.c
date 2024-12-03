@@ -6,7 +6,7 @@
 /*   By: mohel-bo <mohel-bo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 19:58:05 by mohel-bo          #+#    #+#             */
-/*   Updated: 2024/12/02 01:02:06 by mohel-bo         ###   ########.fr       */
+/*   Updated: 2024/12/03 20:21:56 by mohel-bo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,17 +41,19 @@ static int	ft_format(va_list valist, const char *str)
 int	ft_printf(const char *str, ...)
 {
 	va_list		valist;
-	size_t		len;
+	int			len;
 
 	len = 0;
 	va_start(valist, str);
+	if (write(1, 0, 0) < 0)
+		return (-1);
 	while (*str)
 	{
 		if (*str == '%')
 		{
 			str++;
 			if (*str == '\0')
-				return (0);
+				return (va_end (valist), len);
 			len += ft_format(valist, str);
 		}
 		else
